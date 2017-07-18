@@ -10,6 +10,7 @@ var express = require('express')
   , EmployeeProvider = require('./employeeprovider').EmployeeProvider;
 
 var app = express();
+var hello;
 
 app.configure(function(){
   app.set('port', process.env.PORT || 3000);
